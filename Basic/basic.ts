@@ -52,7 +52,7 @@ topFemaleNames.forEach((value, index) => {
     console.log(index, value);
 });
 
-//Alternative solution which requires ES6 to work, i.e.  tsc [file].ts -w --target es6
+//Alternative solution which requires ES6 to work, i.e.  tsc [file].ts -w --target es6 or tsc -w with a tsconfig.json present
 for (var [key, value] of topFemaleNames.entries()) {
     console.log(key, value);
 }
